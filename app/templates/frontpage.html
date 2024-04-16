@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infra</title>
+    <style>
+        fieldset {
+            width: 590px;
+            margin: 39px auto;
+            padding: 27px;
+        }
+        label {
+            display: inline-block;
+            width: 49.5%;
+            text-align: right;
+        }
+        footer {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Test</legend>
+        <h1>{{ message }}</h1>
+        <p>
+            Lista teste
+            {{ table | safe }}
+        </p>
+    </fieldset>
+    <footer>CG IT</footer>
+</body>
+</html>
